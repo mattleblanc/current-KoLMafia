@@ -19,7 +19,7 @@ One thing I wanted to do was call this script directly from the OSX dock. This c
 
 `cd /Users/<you>/kolmafia; source getLatestBuild.sh`
 
-Save your workflow as an application and then stick it in the dock - you've now got a button to push which will  launch the latest hourly build! I've included the image that I use as the icon in the repository as well (it's the <a href="https://twitter.com/asym">@asym</a> twitter pic).
+Save your workflow as an application and then stick it in the dock - you've now got a button to push which will  launch the latest hourly build! I've included the <a href="https://raw.githubusercontent.com/mattleblanc/current-KoLMafia/master/sm.jpg">image</a> that I use as the icon in the repository as well (it's the <a href="https://twitter.com/asym">@asym</a> twitter pic).
 
 ![Screenshot](ss.png)
 
