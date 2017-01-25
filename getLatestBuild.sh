@@ -13,8 +13,6 @@
 LATEST=$(curl http://builds.kolmafia.us/view/all/job/Kolmafia/lastStableBuild/api/json | grep -o 'KoLmafia-[0-9][0-9][0-9][0-9][0-9].jar' | head -1)
 
 # Check whether the current build is already present. If it is, don't bother downloading it again.
-# The filename for KoLmafia is 18 characters long, and that seems unlikely to change in the near future.
-# This is a bit of a hacky solution, though ...
 
 if [ -f ${LATEST} ]
 then
